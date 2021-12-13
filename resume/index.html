@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Yoojin_Frontend</title>
+    <link href="https://unpkg.com/tailwindcss@%5E2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+    a:hover {
+        color: cadetblue;
+        cursor: pointer;
+    }
+    #container {
+        display: none;
+    }
+    #container.on {
+        display: block;
+    }
+    #container2 {
+        display: none;
+    }
+    #container2.on {
+        display: block;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="flex m-20 justify-start items-center">
+        <div class="">
+            <img src="./img-resume.png" alt="" class="shadow-xl rounded h-60 w-55 ml-3">
+        </div>
+        <div class="text-4xl font-bold mt-5 ml-14 text-gray-600">Park YooJin
+            <div class="text-2xl bg-blue-100">Frontend Developer</div>
+            <ul class="list-dis mt-5 text-xs">
+                <li>
+                    Phone
+                    <a href="tel:010-111-222">010-8573-8638</a>
+                </li>
+                <li>
+                    Email
+                    <a href="mailto:urreal@naver.com">urreal@naver.com</a><br>
+                    <a href="mailto:yoojin3972@gmail.com">yoojin3972@gmail.com</a>
+                </li>
+                <li>
+                    Github
+                    <a href="https://github.com/yoojin-park19">https://github.com/yoojin-park19</a>
+                </li>
+            </ul>
+        </div>
+        <div class="text-3xl text-blue-300 font-bold ml-52 opacity-60 text-center"> 
+            Opportunities don't happen.<br> 
+            I create them 
+        </div>
+    </header>
+    <main class="grid grid-cols-4 grid-row-1">
+        <article class="flex flex-col justify-between pt-10 pl-10 index-art bg-blue-300">
+            <ul class="text-yellow-50 font-bold text-2xl">
+                <p class="py-3 text-gray-600">index</p>
+                <li class="mb-3"><a href="#">Introduce</a></li>
+                <li class="mb-3"><a href="#" id="myBtn">Experiment</a></li>
+                <ul class="text-xl mb-3" id="container">
+                    <li>학력사항</li>
+                    <li>경력사항</li>
+                    <li>수상경력</li>
+                </ul>
+                <li><a href="#" id="myBtn2">Project</a></li>
+                <ul class="text-xl my-3" id="container2">
+                    <li>어학연수 지역추천 웹</li>
+                    <li>1만 시간의 법칙</li>
+                </ul>
+            </ul>
+            <ul class="list-dis ml-2 mb-10 text-xs text-gray-400">
+                <li>
+                    Phone
+                    <a href="tel:010-111-222">010-111-2222</a>
+                </li>
+                <li>
+                    Email
+                    <a href="mailto:urreal@naver.com">urreal@naver.com</a><br>
+                    <a href="mailto:yoojin3972@gmail.com">yoojin3972@gmail.com</a>
+                </li>
+                <li>
+                    Github
+                    <a href="https://github.com/yoojin-park19">https://github.com/yoojin-park19</a>
+                </li>
+            </ul>
+        </article>
+        <section class="col-span-3 p-10 ">
+            <ul class="">
+                <li id="summary" class="font-bold text-xl py-3 text-gray-600">Introduce</li>
+                <div class="pb-5 border-b-2 border-blue-200">
+                    매일 소통하는 지원자 박유진입니다.<br>
+                    저는 교육업계에서 고객을 직접 만나는 일에서 6년 가까이 근무해 왔습니다.
+                    저는 유학원에서 일하며,매일 사람을 만나고, 매달 100여명의 고객 케이스를 직접 핸들링 하는 업무를 했습니다. 그 결과, 고객이나 직원들의 불편함이나 아쉬움을 느끼는 것들을 빠르게 파악할 수 있게되었습니다.<br>
+                    하지만 이 불편함을 해소하기위해서는 프로그램을 직접 개발을 하고 수정하는 경우도 필요한 경우가 많았습니다. 그래서 저는 프론트엔드 개발공부를 시작하게 되었습니다.
+                    개발을 공부하면서 내가 개발한 프로그램을 주변 사람들이 접하면서 즐거워하고, 그것이 그들의 불편함을 개선하는데 조금이나마 도움이 됐다는 것이
+                    무척 기쁘게 다가왔습니다.<br>
+                    그래서 저는 앞으로도 사람과 컴퓨터 사이의 소통을 이어주고, 좀 더 소외되는 사람없이 편리하게 프로그램을 이용할 수 있도록
+                    개발할 수 있는 개발자로 성장하고 싶습니다.
+                </div>
+                <li  class="font-bold text-xl py-8 text-gray-600">Experiment</li>
+                <div class="font-bold mb-3" id="Experiment">학력사항</div>
+                <div class="pb-8 border-b-2 ">
+                    - 서강대학교 커뮤니케이션 / 사학과 졸업<br>
+                    - 멋쟁이 사자처럼 프론트엔드 스쿨 수료
+                <div class="py-8 ">
+                    <div class="font-bold mb-3">경력사항</div>
+                    - 천재교육 직영사업단 (3년 근무)<br>
+                    - edm 유학센터 조기유학팀 (3년 근무)
+                </div>
+                <div class="pb-8 border-b-2 border-blue-200">
+                    <div class="font-bold mb-3">수상경력</div>
+                    - CSS 캐릭터 웹디자인 대회 장려상 수상
+                </div>
+                <li  class="font-bold text-xl pt-8 pb-10 text-gray-600">Project</li>
+                <div class="flex border-b-2 border-gray-100">
+                    <img src="./img-app.png" alt="" class="mb-8 shadow-xl rounded h-72 w-72 border-yellow-200">
+                    <div class="mx-10 studyabroad" > 
+                        <div class="font-bold mb-3" id="project">[어학연수 지역추천 웹]</div>
+                        고객이 본인에 성향에 맞는 항목들을 체크하면 항목당의 점수따라 가장 잘 맞는 어학연수 국가를 추천해주는 테스트 웹입니다.<br>
+                        유학원에서 일했던 경험을 바탕으로 지역적 특성이나 비자기간, 원하는 국가 분위기등등을 문항으로 녹여 문항을 만들었습니다.<br>
+                        전직장에서는 고객과의 상담전에 아이스브레이킹 용도로 사용하고 있습니다.<br>
+                        <a href="https://whichcountry.shop/">https://whichcountry.shop/</a><br>
+                        자세한 과정은<br>
+                        <a href="https://github.com/yoojin-park19/app.studyabroad">https://github.com/yoojin-park19/app.studyabroad</a><br>에서 확인해보실 수 있습니다.
+                    </div>
+                </div>
+                <div class="flex border-b-2 border-gray-100">
+                    <div class="mx-10 my-5">
+                        <div class="font-bold mb-3">[1만 시간의 법칙]</div>
+                        1만 시간의 법칙은 멋쟁이 사자처럼 에서 진행하는 프론트엔드 스쿨 과정에서 과제로 진행된 프로젝트입니다.<br>
+                        '어떤분야의 전문가가 되기 위해서는 1만시간은 들여야 한다'라는 개념으로 내가 한분야의 전문가가 되기 위해서는 
+                        하루에 몇시간씩 며칠이 걸리는지를 계산해주는 웹입니다.<br>
+                        새로운 분야로 발을 디딜때는 얼마나 공부해야 하는지 막연할 수 없을 밖에 없습니다. 이때 이를 가시적으로 보여주어,
+                        동기부여를 해줄 수 있습니다.<br>
+                        <a href="https://yoojin-park19.github.io/10000hours/10000hour/">https://yoojin-park19.github.io/10000hours/10000hour/</a><br>
+                        자세한 과정은<br>
+                        <a href="https://github.com/yoojin-park19/10000hours">https://github.com/yoojin-park19/10000hours</a><br>에서 확인해보실 수 있습니다.
+                    </div>
+                    <img src="./img-hour.png" alt="" class="my-8 shadow-xl rounded h-72 w-72 border-yellow-200">
+                </div>
+            </ul>
+        </section>
+    </main>
+    <script>
+        let btn = document.getElementById("myBtn");
+        let cont =document.getElementById("container")
+        btn.addEventListener('click', () => {
+            cont.classList.toggle("on")
+        })
+        let btn2 = document.getElementById("myBtn2");
+        let cont2 =document.getElementById("container2")
+        btn2.addEventListener('click', () => {
+            cont2.classList.toggle("on")
+        })
+    </script>
+</body>
+
+</html>
