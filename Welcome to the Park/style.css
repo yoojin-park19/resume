@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Goyang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Goyang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Goyang';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* nav*/
+.cont-nav {
+    width: 100%;
+    background-color: #F2B950;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont-nav .nav-img {
+    width: 120px;
+    margin-left: 30px;
+}
+.cont-nav .menu-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 50px;
+}
+.cont-nav .menu-list .menu-item {
+    text-decoration: none;
+    font-family: 'Goyang';
+    font-size: 18px;
+    color: #0D0D0D
+}
+.cont-nav .menu-list .menu-item:hover {
+    color: #3B592D;
+}
+
+
+/* header */
+header {
+    width: 100%;
+    background-color: #F2B950;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+header .header-txt {
+    font-family: 'Goyang';
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-right: 100px;
+}
+header .header-txt h1 {
+    font-size: 28px;
+}
+header .header-txt p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+header .header-txt .btn-resume {
+    width: 30%;
+    height: 30px;
+    background-color: #3B592D;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+header .header-img-wrap {
+    position: relative;
+}
+header .host-img {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 160px;
+    border: 10px solid #fff;
+    position: relative;
+}
+header .host-img-hi {
+    height: 200px;
+    position: absolute;
+    top: -156px;
+    left: -55px;
+    transform: rotate(-20deg);
+}
+.cont-moto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    width: 80%;
+}
+.cont-moto .cont-moto-img {
+    width: 400px;
+    border-radius: 15px;
+}
+.cont-moto .cont-moto-txt {
+    max-width: 400px;
+    margin-left: 50px;
+    font-family: 'Goyang';
+}
+.cont-moto .cont-moto-txt h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.cont-moto .cont-moto-txt p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.cont-port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Goyang';
+    padding: 60px;
+    text-align: center;
+}
+.cont-port h2 {
+    font-size: 30px;
+    color: #a6483f;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cont-port p>a {
+    color: #a6483f;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.cont-port .cont-port-img-wrap {
+    margin: 100px 0;
+}
+.cont-port .cont-port-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+.cont-port-txt {
+    display: flex;
+    width: 70%;
+    gap: 18px;
+    justify-content: center;
+    padding: 40px;
+    line-height: 1.5;
+}
+.cont-port-txt .btn-port {
+    width: 45%;
+    height: 40px;
+    background-color: #3B592D;
+    color: white;
+    border-radius: 18px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.footer {
+    width: 100%;
+    height: 400px;
+    padding: 15px 0;
+    background-color: #F28B66;
+    border-radius: 25px;
+    background: url(./img/footer.jpg) center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+.cont-blog {
+    display: flex;
+    font-family: 'Goyang';
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3B592D;
+    color: #fff;
+    max-width: 800px;
+    padding: 40px 50px;
+    border-radius: 50px;
+    margin: 40px 0;
+    position: absolute;
+    top: -110px;
+}
+.cont-blog-txt {
+    width: 50%;
+}
+.cont-blog-txt h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cont-blog-txt p {
+    font-size: 18px;
+}
+.cont-blog .cont-blog-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 18px;;
+}
+.cont-blog .cont-blog-btn .btn-github {
+    width: 200px;
+    padding: 15px 0;
+    background-color:  #587e46;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+.cont-blog .cont-blog-btn .btn-velog {
+    width: 200px;
+    padding: 15px 0;
+    background-color:#F2B950;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+.footer .sns {
+    position: absolute;
+    bottom: 10px;
+    gap: 20px;
+    display: flex;
+    bottom: 10px;
+    left: 10px;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.sns .sns-list {
+    display: none;
+}
+.sns .sns-list.on {
+    display: block;
+}
+.sns .sns-list li{
+margin-bottom: 10px;
+}
+.sns-list .sns-img {
+    width: 25px;
+    margin-right: 10px;
+    vertical-align: top;
+    margin-top: -5px;
+}
+
+.sns .btn-more {
+    cursor: pointer;
+}
+/* 모달창 */
+.box-modal {
+    width: 300px;
+    height:230px;
+    position: absolute;
+    background-color: #fff;
+    top:10px;
+    left: -300px;
+    z-index: 1;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 24px;
+    line-height: 1.5; 
+    border: 5px solid palevioletred;
+    display: none;
+}
+.box-modal.on {
+    display: block;
+}
+.box-modal .modal-img {
+    width: 250px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
