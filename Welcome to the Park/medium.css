@@ -1,0 +1,24 @@
+@media (max-width:950px) {
+    .cont-port {
+        padding: 30px;
+    }
+    .cont-port .cont-port-txt .btn-port {
+        width: 400px;
+    }
+    .list-port {
+        width: 90%;
+        margin: 0;  
+    }
+    .list-port .cont-port-img {
+        width: 200px;
+        height: 200px;
+    }
+    .cont-moto {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .cont-moto .cont-moto-img {
+        margin: 0 0 50px 30px;
+    }
+}

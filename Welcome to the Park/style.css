@@ -14,12 +14,13 @@ body {
 }
 /* nav*/
 .cont-nav {
-    width: 100%;
+    width: 100vw;
     background-color: #F2B950;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 .cont-nav .nav-img {
     width: 120px;
@@ -58,12 +59,13 @@ header .header-txt {
     flex-wrap: wrap;
     gap: 30px;
     margin-right: 100px;
+    width: 65%;
 }
 header .header-txt h1 {
     font-size: 28px;
 }
 header .header-txt p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 header .header-txt .btn-resume {
@@ -101,6 +103,7 @@ header .host-img-hi {
     align-items: center;
     padding: 60px 0;
     width: 80%;
+    margin: 50px 0;
 }
 .cont-moto .cont-moto-img {
     width: 400px;
@@ -117,7 +120,7 @@ header .host-img-hi {
     margin-bottom: 30px;
 }
 .cont-moto .cont-moto-txt p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
 }
 .cont-port {
@@ -128,26 +131,38 @@ header .host-img-hi {
     font-family: 'Goyang';
     padding: 60px;
     text-align: center;
+    margin: 50px 0;
+}
+.cont-port .intro-port {
+    width: 70%;
+}
+.cont-port .intro-port p {
+    font-size: 18px;
 }
 .cont-port h2 {
     font-size: 30px;
     color: #a6483f;
     font-weight: 700;
     margin-bottom: 20px;
+    width: auto;
 }
 .cont-port p>a {
     color: #a6483f;
     font-weight: 700;
     text-decoration: underline;
 }
-.cont-port .cont-port-img-wrap {
-    margin: 100px 0;
+
+.list-port {
+    max-width: 900px;
+    height: 400px;
+    display: flex;
+    margin: 50px 0;
 }
 .cont-port .cont-port-img {
     width: 300px;
     height: 300px;
     border-radius: 30px;
-    margin-right: 30px;
+    margin: 50px 30px 0 0;
 }
 .cont-port-txt {
     display: flex;
@@ -156,9 +171,10 @@ header .host-img-hi {
     justify-content: center;
     padding: 40px;
     line-height: 1.5;
+    font-size: 18px;
 }
 .cont-port-txt .btn-port {
-    width: 45%;
+    width: 400px;
     height: 40px;
     background-color: #3B592D;
     color: white;
@@ -167,6 +183,8 @@ header .host-img-hi {
     padding-top: 20px;
     text-decoration: none;
     margin-left: 30px;
+    cursor: pointer;
+    font-weight: 700;
 }
 .footer {
     width: 100%;
@@ -196,6 +214,7 @@ header .host-img-hi {
 }
 .cont-blog-txt {
     width: 50%;
+    font-size: 18px;
 }
 .cont-blog-txt h2 {
     font-size: 24px;
@@ -287,4 +306,7 @@ margin-bottom: 10px;
     height: 100px;
     margin-top: 10px;
     border-radius: 15px;
+}
+.small-footer {
+    display: none;
 }
